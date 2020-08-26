@@ -1,0 +1,73 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        debug {
+            storeFile file('C:\\Users\\HP\\keystore.jks')
+            storePassword 'vatvat11923'
+            keyPassword 'vatvat11923'
+            keyAlias = 'vat'
+        }
+    }
+    compileSdkVersion 29
+    defaultConfig {
+        applicationId "com.smartsoftwaresolutions.rosary2"
+        minSdkVersion 15
+        targetSdkVersion 29
+        versionCode 108
+        versionName "1.08"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    flavorDimensions 'Type'
+    productFlavors {
+        Free {
+            dimension = 'Type'
+            applicationIdSuffix = '.free'
+            // if you add this resorce in the gradel you must remove it from the strring resource
+            resValue "string", "app_name", "Masbaha"
+        }
+        Pro {
+            dimension = 'Type'
+            applicationIdSuffix = '.pro'
+            resValue "string", "app_name", "Masbaha Pro"
+        }
+        NM {
+            dimension = 'Type'
+            // nouhad moukahal
+            applicationIdSuffix = '.nm'
+            resValue "string", "app_name", "Nouhad Moukahal"
+        }
+
+
+
+
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    //  implementation 'androidx.constraintlayout:constraintlayout:2.0.0-beta3'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    testImplementation 'junit:junit:4.13-rc-1'
+    androidTestImplementation 'androidx.test:runner:1.3.0-alpha02'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0-alpha02'
+    implementation 'com.andkulikov:transitionseverywhere:2.1.0-rc01'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0-rc01'
+    implementation 'androidx.gridlayout:gridlayout:1.0.0'
+    implementation 'com.daasuu:EasingInterpolator:1.3.0'
+    implementation 'com.google.android.gms:play-services-ads:18.2.0'
+    implementation 'com.facebook.stetho:stetho:1.5.1'
+    implementation files('libs/YouTubeAndroidPlayerApi.jar')
+//    implementation 'com.android.support:recyclerview-v7:27.1.1'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+
+}

@@ -1,0 +1,136 @@
+<resources>
+    <!--<string name="app_name">rosary</string>-->
+    <string name="help_message">Welcome If You Need Help Please Select The help</string>
+    <string name="clear_search">Clear Search</string>
+    <string name="btn_Add" translatable="false">btn_Add</string>
+    <string name="btn_Delete" translatable="false">btn_Delete</string>
+    <string name="btn_Save" translatable="false">btn_Save</string>
+    <string name="delete_successfuly">Deleted Successfully</string>
+    <string name="tazkeer_already_exist">already exist</string>
+    <string name="add_edite_zeker">add edit</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="buttom_name" translatable="false"></string>
+    <string name="start">Start</string>
+    <string name="select_tasbeh">Choose Tasbih</string>
+
+    <string name="scene" translatable="false">Scene</string>
+    <string name="scene_1" translatable="false">1</string>
+    <string name="scene_2" translatable="false">2</string>
+    <string name="scene_3" translatable="false">3</string>
+    <string name="additional_message" translatable="false">This text fades in.</string>
+    <string name="todo" translatable="false">TODO</string>
+    <string name="reset_counter">Reset</string>
+    <string name="discription">Discription:</string>
+    <string name="native_discription">Native Description:</string>
+    <string name="counter">Counter:</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="menu_share">Tell A Friend </string>
+    <string name="animation_first" translatable="false">First animation</string>
+    <string name="animation_second" translatable="false">Second animation</string>
+
+    <string name="hello_world" translatable="false">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="border" translatable="false">Border</string>
+    <string name="shape">Shape</string>
+    <string name="circle">Circle</string>
+    <string name="square">Square</string>
+    <string name="color">Color</string>
+    <string name="red" translatable="false">Red</string>
+    <string name="green">gold</string>
+    <string name="blue">Blue</string>
+    <string name="defaultColor">Default</string>
+    <string name="main_menus">Main Menu</string>
+    <string name="plugins">Go Pro</string>
+    <string name="Duaa">Prayers</string>
+
+    <string name="apps">Setting</string>
+    <string name="need_a_help">Begin?</string>
+    <string name="help">Help</string>
+    <string name="setting">Add/Edit</string>
+    <string name="swip_discription">In swinging Motion you can use your finger to swipe left or right to start the counter.</string>
+    <string name="swip_motion">swinging</string>
+    <string name="progress_ring">Ring</string>
+    <string name="progress_discription">it is a Ring. Every time you hit the circle in the middle it will start the count and add one</string>
+    <string name="path_motion">Path</string>
+    <string name="path_discription">Every time you click on the button it will move in a specific half-ring path</string>
+    <string name="wave">Wave</string>
+    <string name="wave_discription">You can choose between a square or a circle. Every time you hit it the wave will rise up</string>
+    <string name="clasic">Joyful</string>
+    <string name="clasic_description">You only have to hit the button and the counter will start and add one, with a beautiful shape.</string>
+    <string name="list_in_motion">Square</string>
+    <string name="list_in_motion_discription">It is a list of item,where when you hit the item it will get in motion and will add one to counter</string>
+    <string name="with_native">With Native language</string>
+    <string name="without_native">Without Native language</string>
+    <string name="native_only">Native Only</string>
+    <string name="please_enter_tasbeh_name">Please enter description</string>
+    <string name="add_new">Add New</string>
+
+    <string name="edit">Edit</string>
+    <string name="select_type">Choose Type</string>
+    <string name="set_counter">Set Counter</string>
+    <string name="change_the_counter">Change the counter</string>
+    <string name="save_counter">Save Counter</string>
+    <string name="Please_set_counter">Please enter a number</string>
+    <string name="finsh">finsh</string>
+    <string name="change_counter">Change Counter</string>
+    <string name="share_counter">Share The Counter</string>
+    <string name="if_you_share_the_counter_do_not_forget_to_reset_the_counter">If you share the counter do not forget to reset the counter.</string>
+    <string name="descip">Description :</string>
+    <string name="counter_to_share">counter to be shared :</string>
+    <string name="god_bless_you">God Bless You</string>
+    <string name="finsh_joy">Finish</string>
+    <string name="the_duaa">The Duaa name  must be unique Please check it</string>
+    <string name="somthing_wrong">Something wrong</string>
+    <string name="show_help_on_the_start_of_the_app">Do not Show help on the start</string>
+    <string name="show_help_on_the_start">Show help on the start</string>
+    <string name="discription_help">"We will introduce the Masbaha (مسبحة) in a different modern way other than the classic one. There is no Masbah  that have a lot of flavor in it like this one. We are trying a new concept, by letting the user feel joy when he or she use it. To begin first tap on start then choose the sentence that you like then choose from a lot of ways you can do tasbih (تسبيح).Please Read the drop down discription. "</string>
+    <string name="video">video</string>
+    <string name="help_video">help video</string>
+    <string name="enter_youtube_video_id">enter youtube URL</string>
+    <string name="play">Play</string>
+    <string name="action_English">English</string>
+    <string name="action_Arabic">Arabic</string>
+    <string name="le">Locale in English !</string>
+    <string name="la">Locale in arabic !</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Save">Save</string>
+    <string name="count">counter</string>
+    <string name="change_reminder">Change notification</string>
+    <string name="notification_body">allahum salaa wasalam wabarak ealaa nabiinana muhamad waealaa alh wasahbih ajmaein</string>
+    <string name="notification_title">Do not forget to mention Allah</string>
+    <string name="help_text_on_how_to_use_the_reminder">Set the time when you want to use the application.
+The default set time is four hours, which means every four hours the application will send you a notification.
+To stop notification press Stop notification Service and the notification will be stoped.</string>
+    <string name="start_alarm_service">Start notification Service</string>
+    <string name="stop_alarm">Stop notification Service</string>
+    <string name="country_prompt">Choose Time</string>
+    <string name="we_will_notify">we will notify you after  </string>
+    <string name="hour"> Hour.</string>
+    <string name="save_time">Save Changes</string>
+    <string name="alarm_set">Alarm Set</string>
+    <string name="alarm_cancel">Alarm Canceled</string>
+    <string name="al_fatiha_on_the_spirit">This app for the soul of</string>
+
+    <string name="fatiha">Al-Fatiha </string>
+    <string name="sharepath" translatable="false">https://play.google.com/store/apps/details?id=com.smartsoftwaresolutions.rosary2.free</string>
+    <string name="check_it">share it out.</string>
+    <string name="this_option">this option is not available for now</string>
+    <string name="another_one">Another One</string>
+    <string-array name="country_arrays">
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>F
+        <item> 4 </item>
+        <item> 5 </item>
+        <item> 6 </item>
+        <item> 7 </item>
+        <item> 8 </item>
+        <item> 9 </item>
+        <item> 10 </item>
+    </string-array>
+
+
+</resources>

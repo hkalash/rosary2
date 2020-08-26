@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bwq="http://schemas.android.com/apk/res-auto"
+   >
+
+
+    <item
+        android:id="@+id/menu_counter"
+        bwq:showAsAction="ifRoom"
+        android:title="@string/menu_share">
+
+    </item>
+
+    <item
+        android:id="@+id/menu_share"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="@string/menu_share"
+        bwq:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_back"
+        android:icon="?attr/actionModeCloseDrawable"
+        android:title="@string/menu_share"
+        bwq:showAsAction="always" />
+    <item
+        android:id="@+id/menu_setting"
+        android:icon="?attr/actionModeCloseDrawable"
+        android:title="@string/apps"
+        bwq:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_Arabic"
+        android:orderInCategory="100"
+        android:title="@string/action_Arabic"
+        bwq:showAsAction="never"
+        >
+
+    </item>
+    <item
+
+        android:id="@+id/action_English"
+        android:orderInCategory="100"
+        android:title="@string/action_English"
+        bwq:showAsAction="never">
+
+    </item>
+<!--    <item-->
+
+<!--        android:id="@+id/action_reminder"-->
+<!--        android:orderInCategory="100"-->
+<!--        android:title="@string/change_reminder"-->
+<!--        bwq:showAsAction="never">-->
+
+<!--    </item>-->
+
+    <item
+
+        android:id="@+id/action_Help"
+        android:orderInCategory="100"
+        android:title="@string/help"
+        bwq:showAsAction="never">
+
+    </item>
+
+</menu>

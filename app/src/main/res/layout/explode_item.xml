@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/btn_grid_item"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="1dp"
+
+    android:layout_weight="1"
+    android:textColor="@color/three"
+    android:textSize="18sp"
+    app:theme="@style/AppTheme.White"
+    android:singleLine="false"/>

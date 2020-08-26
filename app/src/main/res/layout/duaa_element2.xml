@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_Id_Payd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:visibility="invisible"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/tv_name_Payd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/three"
+            android:textSize="24sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/tv_tasbeh_natived"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@color/three"
+            tools:visibility="visible" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btn_editd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_dark"
+            android:contentDescription="@string/todo"
+            android:onClick="Edit_Tasbeh_OnClickHandlerd"
+            android:padding="1dp"
+            app:srcCompat="@android:drawable/ic_menu_edit" />
+
+        <ImageButton
+            android:id="@+id/btn_addd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="#FF9800"
+            android:contentDescription="@string/todo"
+            android:onClick="Add_Tasbeh_OnClickHandlerd"
+            android:padding="1dp"
+            app:srcCompat="@android:drawable/ic_menu_add" />
+
+        <ImageButton
+            android:id="@+id/btn_deletedd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="#F50404"
+            android:contentDescription="@string/todo"
+            android:onClick="remove_Tasbeh_OnClickHandlerd"
+            android:padding="1dp"
+            app:srcCompat="@android:drawable/ic_menu_delete" />
+    </LinearLayout>
+
+</LinearLayout>
